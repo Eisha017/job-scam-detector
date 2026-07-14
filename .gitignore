@@ -1,0 +1,5 @@
+venv/
+.env
+__pycache__/
+data/DataSet.csv
+data/archive.zip

@@ -1,0 +1,192 @@
+[
+  {
+    "text": "Congratulations! You have been shortlisted for a Data Entry position. Salary $35/hour, work from home, flexible hours. To proceed please message our HR manager directly on WhatsApp +1 302 555 0187 to receive your offer letter and training material.",
+    "label": 1,
+    "category": "redirect_instant_offer"
+  },
+  {
+    "text": "We are pleased to inform you that you have been selected for the position of Virtual Assistant. Kindly contact our recruitment officer on Telegram @hrteam_official to complete your application and pay a small processing fee for your equipment and login credentials.",
+    "label": 1,
+    "category": "redirect_instant_offer"
+  },
+  {
+    "text": "Hi, thanks for your interest in our remote typist role. Our hiring manager only communicates through WhatsApp now due to high volume. Add this number to continue: +234 812 555 0199.",
+    "label": 1,
+    "category": "redirect_instant_offer"
+  },
+  {
+    "text": "Your profile matches our open Chat Support role. Since email is slow, please message our recruiter on Signal for a faster response and same-day offer letter.",
+    "label": 1,
+    "category": "redirect_instant_offer"
+  },
+  {
+    "text": "Hiring Package Handler / Reshipping Agent. Earn $800-$1200 a week working from home just 2 hours a day. A one-time registration fee of $45 is required to activate your employee account and receive your starter kit.",
+    "label": 1,
+    "category": "upfront_fee"
+  },
+  {
+    "text": "Work From Home Opportunity - earn up to $1500 a week doing simple tasks. No experience needed, no interview required. Purchase your own starter kit ($60) to begin, refundable after your first month.",
+    "label": 1,
+    "category": "upfront_fee"
+  },
+  {
+    "text": "Congratulations on being pre-selected! Before we can ship your company laptop, a fully refundable insurance deposit of $150 is required. This will be returned in your first paycheck.",
+    "label": 1,
+    "category": "upfront_fee"
+  },
+  {
+    "text": "Remote Executive Assistant needed. Onboarding includes a mandatory background check administered by our partner agency, which requires an $85 processing payment made directly by the candidate.",
+    "label": 1,
+    "category": "upfront_fee"
+  },
+  {
+    "text": "We'd like to offer you the Inventory Coordinator role. Please note a small software licensing fee ($30) is needed to access our internal task management system before your first shift.",
+    "label": 1,
+    "category": "upfront_fee"
+  },
+  {
+    "text": "Remote Customer Support Associate needed urgently. Only 3 positions left, reply within 2 hours to secure your spot. No experience necessary, training provided. Please send your full name, date of birth and a copy of your ID to begin onboarding.",
+    "label": 1,
+    "category": "urgency"
+  },
+  {
+    "text": "Immediate hiring for Account Verification Specialist. Act now, limited slots available today only. A refundable deposit is required before training materials are released. Message our agent on Telegram to begin.",
+    "label": 1,
+    "category": "urgency"
+  },
+  {
+    "text": "This offer expires at midnight. We need 5 more remote associates today. Confirm your interest now by replying YES and we will send your contract within the hour.",
+    "label": 1,
+    "category": "urgency"
+  },
+  {
+    "text": "Congratulations, you've been selected! Reply within 30 minutes with your SSN and a copy of your driver's license to confirm your remote data entry position and receive your company laptop.",
+    "label": 1,
+    "category": "urgency"
+  },
+  {
+    "text": "URGENT HIRING - Social Media Manager. Guaranteed job, no interview needed. Text us directly at the number below to get hired on the spot. Payment of $6000 monthly, work only 1 hour daily from your phone.",
+    "label": 1,
+    "category": "instant_hire"
+  },
+  {
+    "text": "Looking for 10 people to start immediately as Online Product Testers. No resume, no interview, no experience required - everyone who applies gets accepted the same day.",
+    "label": 1,
+    "category": "instant_hire"
+  },
+  {
+    "text": "Data Entry Clerk - hired instantly upon application. No calls, no interviews, just fill the short form and you'll be added to our payroll this week.",
+    "label": 1,
+    "category": "instant_hire"
+  },
+  {
+    "text": "Job Offer: Online Survey Taker. Easy money, no skills needed. Contact us on WhatsApp to receive your first task. Please share your bank account details so we can process your weekly payments in advance.",
+    "label": 1,
+    "category": "info_harvest"
+  },
+  {
+    "text": "Hello, we saw your resume online and would like to offer you a position as a Payment Processing Agent. Please reach out on WhatsApp immediately as this offer expires today. Bank account details required to set up direct deposit before your first shift.",
+    "label": 1,
+    "category": "info_harvest"
+  },
+  {
+    "text": "To finalize your Remote Bookkeeper offer, please reply with a scanned copy of your passport, your bank routing number, and a voided check for direct deposit setup.",
+    "label": 1,
+    "category": "info_harvest"
+  },
+  {
+    "text": "Before scheduling your onboarding call, HR requires your Social Security Number and a photo of your government ID for 'verification purposes' ahead of the first interview.",
+    "label": 1,
+    "category": "info_harvest"
+  },
+  {
+    "text": "Mystery Shopper needed in your area. We'll mail you a check for $1950 - use $150 for your shopping assignment and wire the remaining balance to our regional auditor via the details provided.",
+    "label": 1,
+    "category": "check_scam"
+  },
+  {
+    "text": "Secret Shopper Program: deposit the enclosed check into your account, keep $200 as payment, and forward the rest via gift cards to complete the evaluation of our money transfer partner.",
+    "label": 1,
+    "category": "check_scam"
+  },
+  {
+    "text": "Logistics Coordinator (remote) - receive packages at your home address, repackage them, and ship to the label provided within 24 hours. No experience needed, $500 weekly.",
+    "label": 1,
+    "category": "reshipping"
+  },
+  {
+    "text": "Quality Control Inspector - we will ship products to your home, you inspect and forward them using prepaid labels we send via email. Flexible part-time hours, paid weekly via app.",
+    "label": 1,
+    "category": "reshipping"
+  },
+  {
+    "text": "App Testing Job - complete simple tasks in our partner app and earn commission paid in USDT. Initial deposit of $50 required to unlock higher-paying task tiers.",
+    "label": 1,
+    "category": "crypto_task"
+  },
+  {
+    "text": "Remote Optimization Specialist - boost product ratings by completing tasks, earn crypto rewards instantly. VIP task sets require a small account top-up before withdrawal is enabled.",
+    "label": 1,
+    "category": "crypto_task"
+  },
+  {
+    "text": "Talent scout here - we came across your photos online and think you'd be perfect for a paid modeling campaign. Send us your measurements and a $75 portfolio review fee to get started.",
+    "label": 1,
+    "category": "talent_scam"
+  },
+  {
+    "text": "Brand Ambassador position open - unlimited earning potential, be your own boss! Initial product starter pack purchase required ($199) to begin selling and recruiting your own team.",
+    "label": 1,
+    "category": "mlm"
+  },
+  {
+    "text": "We are looking for a Customer Support Representative to join our growing team. Requirements: 1+ years experience in customer service, strong communication skills. Please apply through our careers page with your resume and cover letter. Salary range $45,000-$55,000 depending on experience.",
+    "label": 0,
+    "category": "legit"
+  },
+  {
+    "text": "Marketing Coordinator - Full time, hybrid role based in our downtown office. Responsibilities include managing social media campaigns and coordinating with the design team. Bachelor's degree preferred. Interviews will be conducted over the next two weeks.",
+    "label": 0,
+    "category": "legit"
+  },
+  {
+    "text": "Software Engineer II - join our backend team building scalable APIs. 3+ years experience with Python or Go required. Competitive salary, health benefits, 401k match. Apply via our applicant tracking system; our recruiting team will follow up within 5 business days.",
+    "label": 0,
+    "category": "legit"
+  },
+  {
+    "text": "Part-time Administrative Assistant needed for a local accounting firm. Duties include scheduling, filing, and answering phones. $18-20/hour. In-person interview required at our office location.",
+    "label": 0,
+    "category": "legit"
+  },
+  {
+    "text": "We're expanding our data science team and are hiring a Machine Learning Engineer. Strong background in PyTorch or TensorFlow required. This role will go through our standard 3-stage interview process including a technical assessment.",
+    "label": 0,
+    "category": "legit"
+  },
+  {
+    "text": "Registered Nurse needed for our outpatient clinic. Must hold a valid state license. Full benefits package including health, dental, and vision. Please submit application through our hospital's HR portal.",
+    "label": 0,
+    "category": "legit"
+  },
+  {
+    "text": "Warehouse Associate - day shift, $19/hour plus overtime. Must be able to lift 50 lbs. Steel-toe boots required. Apply in person at our facility Monday-Friday, 9am-3pm.",
+    "label": 0,
+    "category": "legit"
+  },
+  {
+    "text": "Junior Accountant position available at a mid-size firm. CPA track supported, tuition reimbursement offered. Requires a degree in accounting or finance. First round interviews conducted via video call.",
+    "label": 0,
+    "category": "legit"
+  },
+  {
+    "text": "Graphic Designer wanted for our in-house creative team. Portfolio required with your application. This is a full-time, salaried position with standard benefits and PTO.",
+    "label": 0,
+    "category": "legit"
+  },
+  {
+    "text": "High school seeking a substitute teacher for the spring semester. State teaching certification or eligibility required. Please contact the front office to schedule an interview.",
+    "label": 0,
+    "category": "legit"
+  }
+]
