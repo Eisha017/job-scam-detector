@@ -3,3 +3,5 @@ venv/
 __pycache__/
 data/DataSet.csv
 data/archive.zip
+data/cleaned_postings.csv
+data/combined_dataset.csv
