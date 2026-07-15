@@ -102,6 +102,46 @@ def detect_non_corporate_email(text):
     return _match_any(text, patterns)
 
 
+def detect_roman_urdu_scam_patterns(text):
+    """
+    Catches common scam phrasing in Roman Urdu (Urdu written in Latin script),
+    which is how most job-scam messages actually circulate on WhatsApp/Facebook
+    in Pakistan -- a gap in every English-only detector. Covers the same
+    archetypes as the English detectors above: upfront fees, off-platform
+    redirect, urgency, instant hire, and sensitive info requests.
+    """
+    patterns = [
+        # Upfront fee requests
+        r"\bpehle\s+fees?\b",
+        r"\badvance\s+fees?\s+(?:dein|den|dein)\b",
+        r"\bregistration\s+fees?\s+(?:jama|bhej|dein)\b",
+        r"\bfees?\s+jama\s+karwa",
+        r"\bfees?\s+bhejein\b",
+
+        # Off-platform redirect
+        r"\bwhatsapp\s+p[ea]r?\s+contact\b",
+        r"\bwhatsapp\s+p[ea]\s+message\b",
+        r"\bwhatsapp\s+number\s+bhejein\b",
+
+        # Urgency
+        r"\bjaldi\s+karein\b",
+        r"\bsirf\s+aaj\b",
+        r"\bmehdood\s+nasheeten\b",  # limited seats
+        r"\bforan\s+contact\b",
+
+        # Instant hire / no interview
+        r"\bbina\s+interview\b",
+        r"\bforan\s+select\b",
+        r"\binterview\s+ki\s+zaroorat\s+nahi\b",
+
+        # Sensitive info requests
+        r"\bcnic\s+(?:ki\s+copy\s+)?bhejein\b",
+        r"\bshanakhti\s+card\b",
+        r"\bbank\s+account\s+number\s+(?:dein|den)\b",
+    ]
+    return _match_any(text, patterns)
+
+
 def detect_check_cashing_scam(text):
     """Mystery shopper / check-cashing / wire-back scams — victim deposits a
     fake check and wires part of it back before the check bounces."""
@@ -200,6 +240,7 @@ DETECTORS = {
     "check_cashing_scam": detect_check_cashing_scam,
     "reshipping_mule": detect_reshipping_mule,
     "crypto_task_scam": detect_crypto_task_scam,
+    "roman_urdu_scam_patterns": detect_roman_urdu_scam_patterns,
 }
 
 
