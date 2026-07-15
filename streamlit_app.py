@@ -1,15 +1,15 @@
 """
 Job Scam Detector — Streamlit Demo
 Paste a job posting or recruiter message, get a structured scam risk report.
-Calls the FastAPI backend (main.py) rather than the Gemini API directly, so
-this demo and any future Chrome extension both go through the same API.
+
+Calls the detection pipeline (analyzer.py) directly, in-process -- this
+avoids needing a separately hosted backend for the public demo. The FastAPI
+service (main.py) still exists in this repo for programmatic/API access
+and demonstrates the service-layer architecture.
 """
 
-import os
-import requests
 import streamlit as st
-
-API_URL = os.environ.get("API_URL", "http://127.0.0.1:8000")
+from analyzer import analyze_posting
 
 st.set_page_config(page_title="Job Scam Detector", page_icon="🛡️", layout="centered")
 
@@ -46,18 +46,17 @@ if submitted:
     if len(text.strip()) < 20:
         st.error("Please paste at least 20 characters of text to analyze.")
     else:
-        payload = {"text": text}
+        kwargs = {}
         if claimed_domain.strip() and sender_domain.strip():
-            payload["claimed_company_domain"] = claimed_domain.strip()
-            payload["sender_email_domain"] = sender_domain.strip()
+            kwargs["claimed_company_domain"] = claimed_domain.strip()
+            kwargs["sender_email_domain"] = sender_domain.strip()
 
         with st.spinner("Analyzing..."):
             try:
-                response = requests.post(f"{API_URL}/analyze", json=payload, timeout=30)
-                response.raise_for_status()
-                report = response.json()
-            except requests.exceptions.RequestException as e:
-                st.error(f"Could not reach the analysis API: {e}")
+                result = analyze_posting(text, **kwargs)
+                report = result.model_dump()
+            except Exception as e:
+                st.error(f"Analysis failed: {e}")
                 report = None
 
         if report:
